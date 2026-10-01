@@ -1,0 +1,138 @@
+Section 1: Campus Health Frameworks & Policy Guidance
+HIGHER HEALTH National Framework
+HIGHER HEALTH (the Higher Education and Training Health, Wellness and Development Centre) is the dedicated agency established by the South African Department of Higher Education and Training (DHET) to manage health and wellness across 420+ public university and TVET campus sites nationwide. Its primary mandates include:
+Comprehensive Student Health Standard: Standardized delivery of primary healthcare, sexual and reproductive health (SRH), HIV/TB/STI prevention and management, gender-based violence (GBV) support, and mental health interventions across higher education institutions.
+24/7 Crisis Helpline: Centralized national telephonic counselling and crisis response line (0800 36 36 36) linked directly to regional student support centers.
+Peer Educator Framework: Peer-to-peer wellness programs designed to build resilience, decrease stigma around mental health, and provide early detection and referral.
+UCT Student Wellness Service (SWS) Policy & Operational Blueprint
+The University of Cape Town (UCT) Student Wellness Service (SWS) operates under a comprehensive clinical, psychological, and administrative policy framework.
+                    ┌─────────────────────────────────────────┐
+                    │      Student Access & Entry Points      │
+                    └────────────────────┬────────────────────┘
+                                         │
+        ┌────────────────────────────────┼────────────────────────────────┐
+        │                                │                                │
+┌───────▼────────┐              ┌────────▼────────┐             ┌─────────▼─────────┐
+│ Online Booking │              │ Walk-In Triage  │             │ 24/7 Carelines    │
+│ (Routine Care) │              │ (Urgent/Crisis) │             │ (SADAG/Crisis)    │
+└───────┬────────┘              └────────┬────────┘             └─────────┬─────────┘
+        │                                │                                │
+        └────────────────────────────────┼────────────────────────────────┘
+                                         │
+                    ┌────────────────────▼────────────────────┐
+                    │    Multidisciplinary Primary Care      │
+                    │   (HPCSA / SAPC / SACSSP Registered)   │
+                    └────────────────────┬────────────────────┘
+                                         │
+        ┌────────────────────────────────┼────────────────────────────────┐
+        │                                │                                │
+┌───────▼────────┐              ┌────────▼────────┐             ┌─────────▼─────────┐
+│ Medical Care   │              │ Mental Health   │             │ On-Campus Pharmacy│
+│ (Nurses / GPs) │              │ (Psych / Peer)  │             │ (Dispensing/Med)  │
+└────────────────┘              └─────────────────┘             └───────────────────┘
+1. Clinical Governance & Practitioner Registration
+All medical practitioners, clinical nurse practitioners (CNPs), and psychologists are registered with the Health Professions Council of South Africa (HPCSA).
+Social workers and peer counsellors operate under the South African Council for Social Service Professions (SACSSP).
+Pharmacy operations adhere strictly to the rules of the South African Pharmacy Council (SAPC) and the Medicines and Related Substances Act (Act 101 of 1965).
+2. Key Policies, SOPs, and Operational Flowcharts
+UCT Student Mental Health Policy: Employs a stepped-care model. Interventions range from low-intensity self-management (apps like Panda and Vimbo, peer support programs) to medium-intensity individual/group psychotherapy, up to high-intensity psychiatric crisis intervention.
+SOP Crisis Intervention & Psychiatric Emergencies Flowchart:
+Office Hours (08:30–16:00): Triage via the SWS Hotline (021 650 1020) or the Ivan Toms Building emergency intake.
+After Hours & Emergency Response: Immediate escalation to UCT Campus Protection Services (CPS: 080 650 2222), UCT Careline (0800 24 25 26 operated by SADAG), or SWS Psychiatric Emergency Line (021 650 1271).
+Hospital Transfers: Partnered emergency centers include Groote Schuur Hospital (Public Tertiary), Rondebosch Medical Centre (Private, via SWS pre-approval), and Life Claremont / Vincent Pallotti Hospitals.
+Communicable Diseases & Infection Prevention Protocol: Follows Guidance on Management of Communicable Diseases (GMCD). Defines protocols for isolation, screening, and outbreak management for Tuberculosis (TB), Influenza, COVID-19, and Chickenpox.
+Confidentiality Framework: Strict medical confidentiality under HPCSA/SACSSP codes. Personal health data cannot be shared with university academic faculties or external parties without written student consent, except under statutory exemptions:
+Express written consent by the student.
+Imminent risk to the life or physical safety of the student or others.
+Court order / subpoena.
+Internal multidisciplinary case management within SWS (bounded by clinical confidentiality).
+Section 2: End-to-End Campus Health System Workflows & Management
+To digitize and optimize campus health operations, the system workflow is divided into five core operational modules.
+       ┌────────────────────────────────────────────────────────┐
+       │             Campus Health Digital Ecosystem             │
+       └───────────────────────────┬────────────────────────────┘
+                                   │
+      ┌────────────────────────────┼────────────────────────────┐
+      │                            │                            │
+┌─────▼───────┐             ┌──────▼──────┐              ┌──────▼──────┐
+│  Booking &  │             │ Clinical EHR│              │  Pharmacy   │
+│ Scheduling  │             │ & SOAP System│              │ & Dispense  │
+└─────┬───────┘             └──────┬──────┘              └──────┬──────┘
+      │                            │                            │
+      └────────────────────────────┼────────────────────────────┘
+                                   │
+      ┌────────────────────────────┴────────────────────────────┐
+      │                                                         │
+┌─────▼───────┐                                          ┌──────▼──────┐
+│ Follow-Up & │                                          │ Regulatory  │
+│ Care Sync   │                                          │ Compliance  │
+└─────────────┘                                          └─────────────┘
+1. Booking & Scheduling Engine
+Multi-Role Scheduling: Differentiates between Clinical Nurse Practitioners (CNPs - zero consultation fee), Medical Doctors (fee/medical aid billed), Psychologists/Counselors, and Pharmacy Repeat Collection slots.
+Intelligent Triage Filtering: Before confirming an appointment, students complete a digital symptom checker. High-risk responses (e.g., severe suicidal ideation, chest pain, acute dyspnea) bypass routine booking and trigger the Crisis Protocol (displaying instant emergency call buttons and alerting the SWS triage nurse dashboard).
+Slot Management: Supports walk-in triage buffers, online advance booking, and automated cancellation/rescheduling windows (requiring 2-hour notice to optimize slot utilization).
+2. Electronic Health Record (EHR) & Clinical Encounter Management
+Student Identity Verification: Synchronizes with campus LDAP/Active Directory to fetch verified Student ID, full legal name, date of birth, and home department.
+SOAP Documentation Workflow:
+Subjective: Chief complaint, history of present illness (HPI), allergy flags, social history.
+Objective: Vital signs (BP, HR, SpO2, Temp, Glucose), physical exam findings.
+Assessment: Primary and secondary ICD-10 diagnostic codes.
+Plan: e-Prescriptions, lab requisitions, referral notes, and follow-up directives.
+Multidisciplinary Case Notes: Encrypted notes visible only to assigned care team members (GP, Psychologist, Pharmacist) with granular permission levels.
+3. Pharmacy Dispensing & Chronic Medication System
+e-Prescription Routing: Doctors and CNPs submit structured prescriptions directly to the internal pharmacy queue in real time.
+Pharmacist Dispensing Workflow:
+Verification against drug interaction databases and allergy history.
+SAPC Schedule 1 to Schedule 6 drug ledger tracking.
+Batch number logging and expiration tracking.
+Repeat Chronic Medication Lifecycle: Automated monthly re-authorization, SMS/WhatsApp notification when chronic packs are prepared, and secure QR-code-based pickup validation at the SWS pharmacy window or automated collection lockers.
+4. Follow-Up & Care Continuum Engine
+Automated Communication Pipeline:
+Appointment reminders sent 24 hours and 2 hours prior via SMS/Email/WhatsApp.
+Post-consultation care instructions and feedback surveys.
+Missed Appointment (No-Show) Protocol:
+Routine Primary Care: Sends an automated rescheduling link.
+High-Risk Mental Health: Flags the student on the SWS Social Work/Peer Support dashboard to trigger a proactive wellness call or escalation.
+5. Privacy, Compliance & Data Architecture Standards
+Standard / Law	Mandatory System Controls & Architecture Requirements
+POPIA (South Africa)	
+• Health records categorized as Special Personal Information (Sec 26 & 32).
+
+
+• Explicit, granular consent management for processing and internal sharing.
+
+
+• Automated audit trail logging every view, edit, export, or deletion.
+
+
+• Support for Data Subject Access Rights (Data access, correction, and deletion requests).
+
+HIPAA (International)	
+• AES-256 encryption at rest; TLS 1.3 encryption in transit.
+
+
+• Strict Role-Based & Attribute-Based Access Controls (RBAC/ABAC).
+
+
+• Immutable access logs storing timestamp, user ID, IP address, and record ID.
+
+HL7 FHIR R4	
+Standardized JSON payload models across all RESTful API endpoints:
+
+
+• Patient: Student identity and demographics.
+
+
+• Practitioner: Healthcare provider details and HPCSA registration.
+
+
+• Appointment / Slot: Scheduling state machine.
+
+
+• Encounter: Individual clinical visit session.
+
+
+• Condition / Observation: Diagnostic codes (ICD-10) and vital signs.
+
+
+• MedicationRequest / MedicationDispense: Prescription & pharmacy dispensing logic.
