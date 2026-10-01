@@ -4,10 +4,9 @@ namespace Database\Factories;
 
 use App\Models\Patient;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Patient>
+ * @extends Factory<Patient>
  */
 class PatientFactory extends Factory
 {
@@ -27,7 +26,7 @@ class PatientFactory extends Factory
     {
         return [
             'user_id' => null, // Will be set by relationship
-            'student_number' => 'S' . fake()->unique()->numberBetween(1000000, 9999999),
+            'student_number' => 'S'.fake()->unique()->numberBetween(1000000, 9999999),
             'date_of_birth' => fake()->dateTimeBetween('-30 years', '-18 years'),
             'gender' => fake()->randomElement(['male', 'female', 'other']),
             'popia_consent_given' => true,
