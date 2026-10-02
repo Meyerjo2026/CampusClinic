@@ -43,6 +43,14 @@ Route::middleware(['auth:sanctum', 'popia.consent'])->prefix('v1')->group(functi
         // Update patient profile
     });
 
+    Route::put('/patient/emergency-contact', function () {
+        // Update emergency contact
+    });
+
+    Route::put('/patient/medical-info', function () {
+        // Update medical info
+    });
+
     // POPIA Consent management
     Route::post('/patient/consent', function () {
         // Grant POPIA consent
@@ -50,6 +58,14 @@ Route::middleware(['auth:sanctum', 'popia.consent'])->prefix('v1')->group(functi
 
     Route::delete('/patient/consent', function () {
         // Revoke POPIA consent
+    });
+
+    Route::get('/patient/access-logs', function () {
+        // Get patient's access logs
+    });
+
+    Route::get('/patient/export', function () {
+        // Export patient data (POPIA)
     });
 
     // Appointments
@@ -79,6 +95,11 @@ Route::middleware(['auth:sanctum', 'popia.consent'])->prefix('v1')->group(functi
 
     Route::get('/medication-requests/{medicationRequest}', function () {
         // Show prescription details
+    });
+
+    // Crisis Alert Acknowledgment
+    Route::post('/crisis/{alertId}/acknowledge', function ($alertId) {
+        // Acknowledge crisis alert
     });
 
     // Audit Logs (Admin only)
